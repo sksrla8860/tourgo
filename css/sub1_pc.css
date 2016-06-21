@@ -585,22 +585,22 @@
   ul > .promotion_01 > a > div:first-child {
     width: 100%;
     height: 270px;
-    background-image: url(../img/%EB%B0%9C%EB%A6%AC_%EC%BD%98%EB%9E%98%EB%93%9C.jpg); }
+    background-image: url(../img/bali.jpg); }
 
   ul > .promotion_02 > a > div:first-child {
     width: 100%;
     height: 270px;
-    background-image: url(../img/%EA%B8%B0%EC%B0%A8%EC%97%AC%ED%96%89_2.jpg); }
+    background-image: url(../img/train.jpg); }
 
   ul > .promotion_03 > a > div:first-child {
     width: 100%;
     height: 270px;
-    background-image: url(../img/%EC%A4%91%EC%A0%95%EA%B8%B0%EB%85%90%EB%8B%B9_2.jpg); }
+    background-image: url(../img/Taiwan.jpg); }
 
   ul > .promotion_04 > a > div:first-child {
     width: 100%;
     height: 270px;
-    background-image: url(../img/%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C_%EB%8D%94%EB%B8%94%EB%A6%B0.jpg); }
+    background-image: url(../img/Dublin_Ireland.jpg); }
 
   ul > li > a > div:last-child {
     width: 100%;
