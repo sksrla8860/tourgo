@@ -1,0 +1,563 @@
+@charset "UTF-8";
+/* join_mobile.scss */
+html, body {
+  height: 100%; }
+
+* {
+  font-family: "나눔바른고딕"; }
+
+@media screen and (max-width: 480px) {
+  #header {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 50;
+    background-color: #fff; }
+    #header #sitemap {
+      display: none; }
+    #header #search {
+      width: calc(100% -30px);
+      height: auto;
+      float: left;
+      margin-top: 5px; }
+      #header #search > h1 {
+        width: 70px;
+        height: 30px;
+        background-image: url(../img/logo2.gif);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        float: left; }
+      #header #search > .search_box {
+        width: 40vw;
+        height: 25px;
+        float: left;
+        border-radius: 10px;
+        border: 1px solid #ffc621;
+        margin-left: 5vw; }
+        #header #search > .search_box > fieldset {
+          width: 100%;
+          height: 20px;
+          margin-top: 3px;
+          margin-left: 5px; }
+          #header #search > .search_box > fieldset > input {
+            width: 78%;
+            height: 20px;
+            float: left; }
+          #header #search > .search_box > fieldset > button {
+            width: 20%;
+            height: 20px;
+            float: right;
+            background-color: transparent; }
+      #header #search > .search_icon {
+        display: none; }
+    #header #gnb {
+      width: 30px;
+      height: 30px;
+      float: right;
+      font-size: 30px;
+      text-align: center;
+      line-height: 30px;
+      margin-right: 5px;
+      margin-top: 5px; }
+      #header #gnb #gnbBox {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        right: 3%; }
+        #header #gnb #gnbBox > .menu_btn {
+          position: relative;
+          right: 3%;
+          top: 0%;
+          background-color: transparent;
+          margin-top: 5%;
+          transition: all 0.4s;
+          width: 1.5rem;
+          height: 1.5rem; }
+          #header #gnb #gnbBox > .menu_btn > div {
+            width: 100%;
+            height: 15%;
+            background-color: #333;
+            border-radius: 2rem;
+            margin-bottom: 15%;
+            transition: all 0.7s; }
+            #header #gnb #gnbBox > .menu_btn > div > span {
+              width: 0;
+              height: 0;
+              display: block;
+              overflow: hidden; }
+            #header #gnb #gnbBox > .menu_btn > div:last-child {
+              margin-bottom: 0; }
+          #header #gnb #gnbBox > .menu_btn:hover {
+            cursor: pointer; }
+        #header #gnb #gnbBox > .close_btn > div {
+          position: absolute;
+          right: 3%;
+          top: 43%; }
+          #header #gnb #gnbBox > .close_btn > div:nth-child(1) {
+            transform: rotate(45deg); }
+          #header #gnb #gnbBox > .close_btn > div:nth-child(2) {
+            display: none; }
+          #header #gnb #gnbBox > .close_btn > div:nth-child(3) {
+            transform: rotate(-45deg); }
+        #header #gnb #gnbBox > ul {
+          width: 40vw;
+          height: 100vh;
+          position: absolute;
+          top: 35px;
+          background-color: #ddd;
+          right: calc(-40vw - 6px);
+          transition: all 0.4s;
+          z-index: 100; }
+          #header #gnb #gnbBox > ul > li {
+            width: 100%;
+            height: 5%; }
+            #header #gnb #gnbBox > ul > li > a {
+              width: 100%;
+              height: 100%;
+              display: block;
+              text-decoration: none;
+              font-size: 1.2rem;
+              line-height: 250%; }
+        #header #gnb #gnbBox .menu_list {
+          right: -6px;
+          z-index: 300; }
+        #header #gnb #gnbBox #bg {
+          width: 100vw;
+          height: 100vh;
+          background-color: rgba(51, 51, 51, 0.5);
+          position: absolute;
+          right: -6px;
+          top: 35px;
+          display: none; }
+          #header #gnb #gnbBox #bg > span {
+            width: 0;
+            height: 0;
+            display: block;
+            overflow: hidden; }
+
+  #article {
+    width: 460px;
+    height: auto;
+    padding: 80px 10px; }
+    #article > h2 {
+      width: 37vw;
+      height: 6.5vw;
+      font-size: 5vw;
+      display: block;
+      border-bottom: 1px solid #595959;
+      margin-left: 4vw;
+      margin-bottom: 4vw; }
+    #article #join {
+      width: 100%;
+      height: auto;
+      margin: 0 auto; }
+      #article #join > form {
+        width: 100%;
+        height: 100%; }
+        #article #join > form > fieldset {
+          width: 100%;
+          height: auto;
+          border-bottom: 1px solid #595959;
+          padding-bottom: 3.2vw;
+          margin-bottom: 2.2vw; }
+          #article #join > form > fieldset > dl {
+            width: 100%;
+            height: 6.5vw;
+            margin-top: 2vw; }
+            #article #join > form > fieldset > dl > dt {
+              width: 24vw;
+              height: 100%;
+              padding-left: 7px;
+              float: left; }
+              #article #join > form > fieldset > dl > dt > i {
+                width: 16px;
+                height: 20px;
+                margin: 5px 7px;
+                display: block;
+                float: left; }
+              #article #join > form > fieldset > dl > dt > label {
+                width: 60px;
+                height: 20px;
+                margin: 5px;
+                display: block;
+                float: left; }
+            #article #join > form > fieldset > dl > dd {
+              width: 300px;
+              height: 100%;
+              float: left; }
+              #article #join > form > fieldset > dl > dd > input {
+                width: 140px;
+                height: 30px;
+                border: 2px solid #999;
+                float: left;
+                box-sizing: border-box;
+                border-radius: 5px;
+                margin-right: 20px;
+                text-indent: 0.06rem; }
+              #article #join > form > fieldset > dl > dd > button {
+                width: 70px;
+                height: 26px;
+                cursor: pointer;
+                float: left; }
+    #article #join .form_01 {
+      width: 100%;
+      height: 120px; }
+    #article #join .form_02 {
+      width: 100%;
+      height: 200px; }
+    #article #join .form_03 {
+      width: 100%;
+      height: 165px;
+      margin-bottom: 20px;
+      border-bottom: 0; }
+    #article #join .form_04 {
+      width: 100%;
+      height: 40px;
+      border-bottom: 0;
+      margin: 0px;
+      padding: 0; }
+    #article .j_img {
+      background-image: url(../img/join_icon.png);
+      background-repeat: no-repeat; }
+    #article dt > label > span, #article dd > label > span, #article dd > button > span {
+      width: 0;
+      height: 0;
+      display: block;
+      overflow: hidden; }
+    #article .join_1 dt > i {
+      background-position: -50px 0; }
+    #article .join_1 dt > label {
+      background-position: -70px 0; }
+    #article .join_1 dd > button {
+      background-position: -352px -164px;
+      margin-top: 2px;
+      border-radius: 3px; }
+    #article .join_2 dt > i {
+      background-position: -50px -20px; }
+    #article .join_2 dt > label {
+      background-position: -70px -20px; }
+    #article .join_2 dd > i {
+      width: 0;
+      height: 0;
+      overflow: hidden; }
+    #article .join_3 dt > i {
+      background-position: -50px -40px; }
+    #article .join_3 dt > label {
+      background-position: -70px -40px; }
+    #article .join_3 dd > i {
+      width: 0;
+      height: 0;
+      overflow: hidden; }
+    #article .join_4 dt > i {
+      background-position: -50px -60px; }
+    #article .join_4 dt > label {
+      background-position: -70px -60px; }
+    #article .join_4 dd > i {
+      width: 0;
+      height: 0;
+      overflow: hidden; }
+    #article .join_5 dt > i {
+      background-position: -50px -80px; }
+    #article .join_5 dt > label {
+      background-position: -70px -80px; }
+    #article .join_5 dd > button {
+      background-position: -352px -164px;
+      margin-top: 2px;
+      border-radius: 3px; }
+    #article .join_6 dt > i {
+      background-position: -50px -100px; }
+    #article .join_6 dt > label {
+      background-position: -70px -100px; }
+    #article .join_6 dt > label > .me_hidden {
+      width: 0;
+      height: 0;
+      display: block;
+      overflow: hidden; }
+    #article .join_6 dd > #phone_box_1 {
+      width: 70px;
+      height: 30px;
+      border: 2px solid #999;
+      float: left;
+      box-sizing: border-box;
+      border-radius: 5px;
+      margin-right: 10px;
+      text-indent: 0.06rem; }
+    #article .join_6 dd > #phone_box_2 {
+      width: 70px;
+      height: 30px; }
+    #article .join_6 dd > #phone_box_3 {
+      width: 70px;
+      height: 30px; }
+    #article .join_6 dd > .line_bar {
+      width: 10px;
+      height: 14px;
+      margin-right: 10px;
+      border-bottom: 1px solid #595959;
+      float: left; }
+    #article .join_7 dt > i {
+      background-position: -50px -120px; }
+    #article .join_7 dt > label {
+      background-position: -70px -120px; }
+    #article .join_7 dd > #e_mail_box_1 {
+      width: 110px;
+      height: 30px; }
+    #article .join_7 dd > #e_mail_box_2 {
+      width: 140px;
+      height: 30px; }
+    #article .join_7 dd > i {
+      width: 20px;
+      height: 20px;
+      background-position: -280px -80px;
+      margin-top: 7px;
+      margin-left: -15px;
+      margin-right: 3px;
+      float: left; }
+    #article #join > form > fieldset > .sms_yes_no {
+      width: 221px;
+      height: 100%;
+      float: left; }
+    #article #join > form > fieldset > .sms_yes_no > dt {
+      width: 84px;
+      height: 100%;
+      padding-left: 7px;
+      float: left; }
+    #article #join > form > fieldset > .sms_yes_no > dd {
+      width: 130px;
+      height: 100%;
+      float: right; }
+    #article #join .sms_yes_no dt > i {
+      width: 20px;
+      height: 20px;
+      background-position: 0 -100px;
+      margin: 5px 7px;
+      display: block;
+      float: left; }
+    #article #join .sms_yes_no dt > label {
+      width: 30px;
+      height: 20px;
+      margin: 5px 10px;
+      display: block;
+      float: left;
+      margin-left: 10px;
+      text-align: center;
+      font-size: 0.85rem;
+      background-color: rgba(88, 210, 11, 0.5); }
+    #article #join .sms_yes_no dd > #s_yes {
+      width: 15px;
+      height: 15px;
+      float: left;
+      margin-top: 8px;
+      margin-left: 6px; }
+    #article #join .sms_yes_no dd > #s_no {
+      width: 15px;
+      height: 15px;
+      float: left;
+      margin-top: 8px;
+      margin-left: 6px; }
+    #article #join .sms_yes_no dd > label {
+      width: 30px;
+      height: 30px;
+      float: left;
+      margin-top: 8px;
+      margin-left: -10px;
+      font-size: 0.825rem; }
+    #article #join > form > fieldset > .email_yes_no {
+      width: 221px;
+      height: 100%;
+      float: left; }
+    #article #join > form > fieldset > .email_yes_no > dt {
+      width: 50px;
+      height: 100%;
+      padding-left: 7px;
+      float: left; }
+    #article #join > form > fieldset > .email_yes_no > dd {
+      width: 130px;
+      height: 100%;
+      float: left; }
+    #article #join .email_yes_no dt > i {
+      width: 20px;
+      height: 20px;
+      background-position: 0 -100px;
+      margin: 5px;
+      display: block;
+      float: left; }
+    #article #join .email_yes_no dt > label {
+      width: 40px;
+      height: 20px;
+      margin: 5px 0;
+      display: block;
+      float: left;
+      text-align: center;
+      font-size: 0.85rem;
+      background-color: rgba(88, 210, 11, 0.5); }
+    #article #join .email_yes_no dd > #e_yes {
+      width: 15px;
+      height: 15px;
+      float: left;
+      margin-top: 8px;
+      margin-left: 6px; }
+    #article #join .email_yes_no dd > #e_no {
+      width: 15px;
+      height: 15px;
+      float: left;
+      margin-top: 8px;
+      margin-left: 6px; }
+    #article #join .email_yes_no dd > label {
+      width: 30px;
+      height: 30px;
+      float: left;
+      margin-top: 8px;
+      margin-left: -10px;
+      font-size: 0.825rem; }
+    #article #join .join_8 dt > i {
+      background-position: -50px -140px; }
+    #article #join .join_8 dt > label {
+      background-position: -70px -140px; }
+    #article #join .join_8 dd > input {
+      width: 70px;
+      height: 30px; }
+    #article #join .join_8 dd > .year {
+      width: 14px;
+      height: 20px;
+      background-position: -280px -100px;
+      margin-top: 7px;
+      margin-left: -15px;
+      margin-right: 8px;
+      float: left; }
+    #article #join .join_8 dd > .month {
+      width: 14px;
+      height: 20px;
+      background-position: -300px -100px;
+      margin-top: 7px;
+      margin-left: -15px;
+      margin-right: 8px;
+      float: left; }
+    #article #join .join_8 dd > .day {
+      width: 14px;
+      height: 20px;
+      background-position: -320px -100px;
+      margin-top: 7px;
+      margin-left: -15px;
+      float: left; }
+    #article #join .join_9 dt > i {
+      width: 20px;
+      height: 20px;
+      background-position: -50px -160px; }
+    #article #join .join_9 dt > label {
+      background-position: -70px -160px; }
+    #article #join .join_9 dd > input {
+      width: 60px;
+      margin-right: 10px; }
+    #article #join .join_9 dd > .line_bar {
+      width: 10px;
+      height: 14px;
+      margin-right: 10px;
+      border-bottom: 1px solid #595959;
+      float: left; }
+    #article #join .join_9 dd > button {
+      background-position: -255px -162px;
+      float: left;
+      margin-top: 2px;
+      border-radius: 3px; }
+    #article #join .join_10 dt > i {
+      background-position: -50px -160px; }
+    #article #join .join_10 dt > label {
+      background-position: -70px -180px; }
+    #article #join .join_10 dd > input {
+      width: 180px;
+      margin-bottom: 8px; }
+    #article #join .form_04 > button {
+      width: 100px;
+      height: 40px;
+      cursor: pointer; }
+    #article button[type="submit"] {
+      float: left;
+      margin-left: 100px;
+      background-color: #58D20B; }
+    #article button[type="reset"] {
+      float: right;
+      margin-right: 100px; }
+
+  #footer #footer_box #fnb > ul {
+    width: 100%;
+    height: 50px; }
+    #footer #footer_box #fnb > ul > li {
+      width: calc( (100% - 32px) / 3 );
+      height: 15px;
+      padding: 5px 5px;
+      float: left;
+      border-right: 1px solid #aaa;
+      text-align: center; }
+      #footer #footer_box #fnb > ul > li > a {
+        text-align: center;
+        font-size: .7rem;
+        line-height: 17px;
+        text-decoration: none; }
+      #footer #footer_box #fnb > ul > li:nth-child(3) {
+        border-right: 0; }
+      #footer #footer_box #fnb > ul > li:nth-child(1n+4) {
+        width: calc((100% - 43px) / 4); }
+      #footer #footer_box #fnb > ul > li:nth-child(6) > a {
+        letter-spacing: -0.0625rem;
+        font-size: .67rem; }
+      #footer #footer_box #fnb > ul > li:nth-child(7) {
+        border-right: 0; }
+  #footer #footer_box #addBox {
+    width: 100%;
+    margin-top: 20px; }
+    #footer #footer_box #addBox > * {
+      width: 100%;
+      text-align: center;
+      font-size: 0.8rem; }
+    #footer #footer_box #addBox > .info > h3 {
+      width: 100%;
+      height: auto; }
+    #footer #footer_box #addBox > .info > p {
+      margin-top: 3px; }
+    #footer #footer_box #addBox > .add {
+      margin-top: 20px; }
+      #footer #footer_box #addBox > .add > h3 {
+        width: 100%;
+        height: auto; }
+    #footer #footer_box #addBox > .con {
+      width: auto;
+      height: 70px;
+      margin: 0 auto;
+      margin-top: 20px; }
+      #footer #footer_box #addBox > .con > h3 {
+        width: auto;
+        height: auto; }
+      #footer #footer_box #addBox > .con > ul {
+        width: auto;
+        margin-left: calc(50% - 110px); }
+        #footer #footer_box #addBox > .con > ul > li {
+          width: 50px;
+          height: 50px;
+          float: left;
+          margin-right: 10px; }
+          #footer #footer_box #addBox > .con > ul > li > a {
+            width: 50px;
+            height: 50px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+          #footer #footer_box #addBox > .con > ul > li:nth-child(1) a {
+            background-image: url(../img/F_icon.svg.png); }
+          #footer #footer_box #addBox > .con > ul > li:nth-child(2) a {
+            background-image: url(../img/instagram-logo.png); }
+          #footer #footer_box #addBox > .con > ul > li:nth-child(3) a {
+            background-image: url(../img/com_kakao_story.png); }
+          #footer #footer_box #addBox > .con > ul > li:nth-child(4) {
+            margin-right: 0; }
+            #footer #footer_box #addBox > .con > ul > li:nth-child(4) > a {
+              background-image: url(../img/com_kakao_story.png); }
+  #footer #footer_box #foot_info {
+    margin-top: 20px; }
+    #footer #footer_box #foot_info > * {
+      text-align: center;
+      font-size: 0.75rem;
+      margin-top: 3px; } }
+
+/*# sourceMappingURL=join_mobile.css.map */
