@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko-KR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/lib/reset.css" />
+    <link rel="stylesheet" href="./css/join_pc.css">
+    <link rel="stylesheet" href="./css/join_mobile.css">
+    <style type="text/css">
+
+    </style>
+    <script type="css/javascript">
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div id="sitemap">
+                <div class="sitemapBox">
+                    <ul class="me_link">
+                        <li class="sm_01"><a href="./loginPage.html">로그인</a><span></span></li>
+                        <li class="sm_02"><a href="./joinPage.html">회원가입</a><span></span></li>
+                        <li class="sm_03"><a href="#">마이페이지</a><span></span></li>
+                        <li class="sm_04"><a href="#">예약환인 및 결제</a><span></span></li>
+                        <li class="sm_05"><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+            </div><!--// #sitemap -->
+            <div id="search">
+                <h1><a href="./index.html"><span>logo</span></a></h1>
+                <form action="#" method="get" role="search" class="search_box">
+                    <fieldset>
+                        <legend>웹투어 검색</legend>
+                        <input type="search" name="searchBox" id="searchBox" value="" />
+                        <label for="searchBox" class="me_hidden">검색창 입니다.</label>
+                        <button type="button" class="fa fa-search"><span class="me_hidden">검색</span></button>
+                    </fieldset>
+                    </form>
+                <div class="search_icon">
+                    <ul class="me_link">
+                        <li class="sb_01"><a href="#"><span>이벤트</span></a><span><!--여백 바--></span></li>
+                        <li class="sb_02"><a href="#"><span>기획전</span></a><span><!--여백 바--></span></li>
+                        <li class="sb_03"><a href="#"><span>홈쇼핑</span></a><span><!--여백 바--></span></li>
+                        <li class="sb_04"><a href="#"><span>기업 및 단체</span></a></li>
+                    </ul>
+                </div>
+            </div><!--// #search -->
+            <div id="gnb">
+                <div id="gnbBox">
+                    <button type="button" class="menu_btn">
+                       <div><span>첫번째 라인</span></div>
+                       <div><span>두번째 라인</span></div>
+                       <div><span>세번째 라인</span></div>
+                    </button>
+                    <ul>
+                        <li><a href="./sub1.html">항공권</a></li>
+                        <li><a href="#">해외패키지</a></li>
+                        <li><a href="#">국내여행</a></li>
+                        <li><a href="#">자유여행</a></li>
+                        <li><a href="#">테마여행</a></li>
+                        <li><a href="#">여행이야기</a></li>
+                    </ul>
+                    <div id="bg"><span>오퍼시티</span></div>
+                </div>
+            </div><!--// #gnb -->
+        </div><!--// #header -->
+           
+        <div id="article">
+            <h2>회원가입 페이지</h2>
+            <div id="join">
+                <form action="" method="post">
+                    <fieldset class="form_01">
+                        <legend>필수 입력사항</legend>
+                        <dl class="join_1">
+                            <dt><i class="j_img"></i><label for="user" class="j_img"><span>가입하실 아이디를 입력하세요</span></label></dt>
+                            <dd>
+                                <input type="text" id="user" name="user" value="" />
+                                <button class="j_img"><span>중복확인</span></button>
+                            </dd>
+                        </dl>
+                        <dl class="join_2">
+                            <dt>
+                                <i class="j_img"></i>
+                                <label for="password" class="j_img">
+                                    <span>가입하실 비밀번호를 입력하세요. 다섯에서 열다섯자리 사이의 비밀번호를 입력하세요</span>
+                                </label>
+                            </dt>
+                            <dd>
+                                <input type="password" id="password" name="password" value="" />
+                                <i class="j_img"></i>
+                            </dd>
+                        </dl>
+                        <dl class="join_3">
+                            <dt><i class="j_img"></i><label for="password_chcek" class="j_img"><span>가입하실 비밀번호를 한번 더 입력하세요</span></label></dt>
+                            <dd>
+                                <input type="password" id="password_chcek" name="password_chcek" value="" />
+                                <i class="j_img"></i>
+                            </dd>
+                        </dl>
+                    </fieldset>
+                    
+                    <fieldset class="form_02">
+                        <legend>기본 입력사항</legend>
+                        <dl class="join_4">
+                            <dt><i class="j_img"></i><label for="user_name" class="j_img"><span>성명을 기입해주세요</span></label></dt>
+                            <dd>
+                                <input type="text" id="user_name" name="user_name" value="" />
+                                <i class="j_img"></i>
+                            </dd>
+                        </dl>
+                        <dl class="join_5">
+                            <dt><i class="j_img"></i><label for="nickname" class="j_img"><span>사용하실 별명을 입력해주세요</span></label></dt>
+                            <dd>
+                                <input type="text" id="nickname" name="nickname" value="" />
+                                <button class="j_img"><span>중복확인</span></button>
+                            </dd>
+                        </dl>
+                        <dl class="join_6">
+                            <dt>
+                                <i class="j_img"></i>
+                                    <label for="phone_box_1" class="j_img">
+                                        <span class="me_hidden">휴대폰번호 앞자리를 선택하세요.</span>
+                                    </label>
+                            </dt>
+                            <dd>
+                                <select name="phone_box_1" id="phone_box_1">
+							    	<option value="010">010</option>
+							    	<option value="011">011</option>
+							    	<option value="016">016</option>
+							    	<option value="017">017</option>
+							    	<option value="018">018</option>
+							    	<option value="019">019</option>
+							    </select>
+							    <span class="line_bar"><!-- dash_line --></span>
+						      	
+						      	<input type="tel" name="phone_box_2" id="phone_box_2" value="" maxlength="4" />
+						      	<label for="phone_box_2" class="me_hidden">휴대폰 가운데번호 셋 또는 네자리를 입력하세요.</label>
+						      	<span class="line_bar"><!-- dash_line --></span>
+						      	
+						      	<input type="tel" name="phone_box_3" id="phone_box_3" value="" maxlength="4" />
+						      	<label for="phone_box_3" class="me_hidden">휴대폰 마지막번호 네자리를 입력하세요.</label>
+						      </dd>
+                        </dl>
+                        <dl class="join_7">
+                            <dt><i class="j_img"></i><label for="e_mail" class="j_img"><span>이메일주소를 입력하세요</span></label></dt>
+                            <dd>
+                                <input type="text" id="e_mail_box_1" name="e_mail_box_1" value="" />
+                                <label for="post_box_1"><span>이메일 아이디를 입력해주세요.</span></label>
+                                <i class="j_img"><!-- @ --></i>
+                                <input type="text" id="e_mail_box_2" name="e_mail_box_2" value="" />
+                                <label for="post_box_2"><span>이메일 주소를 입력해주세요.</span></label>
+                            </dd>
+                        </dl>
+                        
+                        <dl class="sms_yes_no">
+						    <dt><i class="j_img"></i>
+                                <label for="s_yes">SMS</label></dt>
+						    <dd>
+						        <input type="radio" name="sms_yes_no" id="s_yes" value="yes" >
+						        <label for="s_yes">수신</label>
+						        <input type="radio" name="sms_yes_no" id="s_no" value="no" >
+                                <label for="s_no">거부</label>
+						    </dd>
+					    </dl>
+                        <dl class="email_yes_no">
+						    <dt>
+                               <label for="e_yes">Email</label></dt>
+                            <dd>
+                                <input type="radio" name="email_yes_no" id="e_yes" value="yes" >
+						        <label for="e_yes">수신</label>
+						        <input type="radio" name="email_yes_no" id="e_no" value="no" >
+						        <label for="e_no">거부</label>
+                            </dd>
+                        </dl>
+                    </fieldset>
+                    
+                    <fieldset class="form_03">
+                        <legend>추가 입력사항</legend>
+                        <dl class="join_8">
+                            <dt><i class="j_img"></i><label for="brith" class="j_img"><span>생년월일을 입력하세요</span></label></dt>
+                            <dd>
+                                <input type="text" id="year" name="year" value="" />
+                                <label for="year"><span>태어난 년도를 입력하세요.</span></label>
+                                <i class="j_img year"><!-- 년 --></i>
+                                <input type="text" id="month" name="month" value="" />
+                                <label for="month"><span>태어난 달을 입력하세요.</span></label>
+                                <i class="j_img month"><!-- 월 --></i>
+                                <input type="text" id="day" name="day" value="" />
+                                <label for="day"><span>태어난 일을 입력하세요.</span></label>
+                                <i class="j_img day"><!-- 일 --></i>
+                            </dd>
+                        </dl>
+                        <dl class="join_9">
+                            <dt><i class="j_img"></i><label for="post_box_btn" class="j_img"><span>가입하실 주소의 우편번호를 입력하세요.</span></label></dt>
+                            <dd>
+                                <input type="text" id="post_box_1" name="post_box" value="" />
+                                <label for="post_box_1"><span>우편번호 앞자리를 입력버튼을 눌러주세요.</span></label>
+                                <span class="line_bar"><!-- 우편번호 구분 라인 --></span>
+                                <input type="text" id="post_box_2" name="post_box" value="" />
+                                <label for="post_box_2"><span>우편번호 뒷자리를 입력버튼을 눌러주세요.</span></label>
+                                <button class="j_img" id="post_box_btn"><span>우편번호 검색</span></button>
+                            </dd>
+                        </dl>
+                        <dl class="join_10">
+                            <dt>
+                                <i class="j_img"></i><label for="adderss_box" class="j_img"><span>가입하실 주소를 입력하세요.</span></label>
+                            </dt>
+                            <dd>
+                                <input type="text" id="address_box" name="address_box" value="" />
+                                <label for="address_box_1"><span>주소를 입력해주세요.</span></label>
+                                <input type="text" id="address_box_2" name="address_box" value="" />
+                                <label for="address_box_2"><span>상세 주소를 입력해주세요.</span></label>
+                            </dd>
+                        </dl>
+                    </fieldset>
+                    
+                    <fieldset class="form_04">
+                        <legend>확인 및 취소</legend>
+                        <button type="submit"><span>동의함</span></button>
+                        <button type="reset"><span>취소</span></button>
+                    </fieldset>
+                </form>
+            </div>
+        </div><!--// #article-->
+         
+        <div id="footer">
+            <div id="footer_box">
+                <div id="fnb">
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">여행약관</a></li>
+                        <li><a href="#">웹투어여행상품권</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+                <div id="addBox">
+                    <div class="info">
+                        <h3>INFORMATION</h3>
+                        <p>웹투어(주) 대표이사: 홍성원<br /></p>
+                        <p>사업자 번호: 214-81-89957<br />
+                        통상판매업신고: 제2013-서울종로-3020호<br />
+                        관광사업등록: 제2013-000012호</p>
+                        <p><a href="">사업자 정보 확인</a></p>
+                        <p>영업보증금: 15억 가입(2015.08.23 ~ 2016.08.23)</p>
+                        <p>개인정보보호책임자: 김동훈</p>
+                    </div>
+                    <div class="add">
+                        <h3>ADDRESS</h3>
+                        <p>서울시 종로구 인사동 5길 29(인사동, 태화빌딩) 11층
+                        <br />대표번호: 02) 2222 - 2525
+                        <br />E-mail: webmaster@webtour.com</p>
+                    </div>
+                    <div class="con">
+                        <h3>CONNECT</h3>
+                        <ul>
+                            <li><a href="#"><span>페이스북</span></a></li>
+                            <li><a href="#"><span>인스타그램</span></a></li>
+                            <li><a href="#"><span>블로그</span></a></li>
+                            <li><a href="#"><span>카카오스토리</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="foot_info">
+                    <p>부득이한 사정에 의해 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.</p>
+                    <p>웹투어에 등록된 외부제휴상품은 제휴사에서 등록한 것으로써, 웹투어는 그 등록 내용에 대하여 일체의 책임을 지지 않습니다.</p>
+                    <p>CopyrightⓒWebtour. All right reserved.</p>
+                </div>
+            </div>
+        </div><!--// #footer -->
+    </div><!--// #wrap -->
+</body>
+</html>
