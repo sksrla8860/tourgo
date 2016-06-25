@@ -1,13 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko-KR">
+<!DOCTYPE html>
+<html lang="ko-KR">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/lib/reset.css" />
-    <link rel="stylesheet" href="./css/join_pc.css">
-    <link rel="stylesheet" href="./css/join_mobile.css">
+    <link rel="stylesheet" href="./css/join_pc.css" />
+    <link rel="stylesheet" href="./css/join_mobile.css" />
     <style type="text/css">
 
     </style>
@@ -30,10 +30,10 @@
             </div><!--// #sitemap -->
             <div id="search">
                 <h1><a href="./index.html"><span>logo</span></a></h1>
-                <form action="#" method="get" role="search" class="search_box">
+                <form action="#" method="get" data-role="search" class="search_box">
                     <fieldset>
                         <legend>웹투어 검색</legend>
-                        <input type="search" name="searchBox" id="searchBox" value="" />
+                        <input type="text" name="searchBox" id="searchBox" value="" />
                         <label for="searchBox" class="me_hidden">검색창 입니다.</label>
                         <button type="button" class="fa fa-search"><span class="me_hidden">검색</span></button>
                     </fieldset>
@@ -50,9 +50,9 @@
             <div id="gnb">
                 <div id="gnbBox">
                     <button type="button" class="menu_btn">
-                       <div><span>첫번째 라인</span></div>
-                       <div><span>두번째 라인</span></div>
-                       <div><span>세번째 라인</span></div>
+                       <span><!-- 첫번째 라인 --></span>
+                       <span><!-- 두번째 라인 --></span>
+                       <span><!-- 세번째 라인 --></span>
                     </button>
                     <ul>
                         <li><a href="./sub1.html">항공권</a></li>
@@ -70,7 +70,7 @@
         <div id="article">
             <h2>회원가입 페이지</h2>
             <div id="join">
-                <form action="" method="post">
+                <form action="#" method="post">
                     <fieldset class="form_01">
                         <legend>필수 입력사항</legend>
                         <dl class="join_1">
@@ -144,13 +144,13 @@
 						      </dd>
                         </dl>
                         <dl class="join_7">
-                            <dt><i class="j_img"></i><label for="e_mail" class="j_img"><span>이메일주소를 입력하세요</span></label></dt>
+                            <dt><i class="j_img"></i><label for="e_mail_box_1" class="j_img"><span>이메일주소를 입력하세요</span></label></dt>
                             <dd>
                                 <input type="text" id="e_mail_box_1" name="e_mail_box_1" value="" />
-                                <label for="post_box_1"><span>이메일 아이디를 입력해주세요.</span></label>
+                                <label for="e_mail_box_1"><span>이메일 아이디를 입력해주세요.</span></label>
                                 <i class="j_img"><!-- @ --></i>
                                 <input type="text" id="e_mail_box_2" name="e_mail_box_2" value="" />
-                                <label for="post_box_2"><span>이메일 주소를 입력해주세요.</span></label>
+                                <label for="e_mail_box_2"><span>이메일 주소를 입력해주세요.</span></label>
                             </dd>
                         </dl>
                         
@@ -179,7 +179,7 @@
                     <fieldset class="form_03">
                         <legend>추가 입력사항</legend>
                         <dl class="join_8">
-                            <dt><i class="j_img"></i><label for="brith" class="j_img"><span>생년월일을 입력하세요</span></label></dt>
+                            <dt><i class="j_img"></i><label for="year" class="j_img"><span>생년월일을 입력하세요</span></label></dt>
                             <dd>
                                 <input type="text" id="year" name="year" value="" />
                                 <label for="year"><span>태어난 년도를 입력하세요.</span></label>
@@ -205,10 +205,10 @@
                         </dl>
                         <dl class="join_10">
                             <dt>
-                                <i class="j_img"></i><label for="adderss_box" class="j_img"><span>가입하실 주소를 입력하세요.</span></label>
+                                <i class="j_img"></i><label for="address_box_1" class="j_img"><span>가입하실 주소를 입력하세요.</span></label>
                             </dt>
                             <dd>
-                                <input type="text" id="address_box" name="address_box" value="" />
+                                <input type="text" id="address_box_1" name="address_box" value="" />
                                 <label for="address_box_1"><span>주소를 입력해주세요.</span></label>
                                 <input type="text" id="address_box_2" name="address_box" value="" />
                                 <label for="address_box_2"><span>상세 주소를 입력해주세요.</span></label>

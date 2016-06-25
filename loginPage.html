@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko-KR">
 <head>
   <meta charset="utf-8">
   <title>jQuery UI Tabs - Default functionality</title>
@@ -30,7 +30,7 @@
             </div><!--// #sitemap -->
             <div id="search">
                 <h1><a href="./index.html"><span>logo</span></a></h1>
-                <form action="#" method="get" role="search" class="search_box">
+                <form action="#" method="get" data-role="search" class="search_box">
                     <fieldset>
                         <legend>웹투어 검색</legend>
                         <input type="search" name="searchBox" id="searchBox" value="" />
@@ -50,9 +50,9 @@
             <div id="gnb">
                 <div id="gnbBox">
                     <button type="button" class="menu_btn">
-                       <div><span>첫번째 라인</span></div>
-                       <div><span>두번째 라인</span></div>
-                       <div><span>세번째 라인</span></div>
+                       <span><!-- 첫번째 라인 --></span>
+                       <span><!-- 두번째 라인 --></span>
+                       <span><!-- 세번째 라인 --></span>
                     </button>
                     <ul>
                         <li><a href="./sub1.html">항공권</a></li>
@@ -75,7 +75,7 @@
           <li><a href="#tabs-2" class="no_member">비회원</a></li>
         </ul>
         <div id="tabs-1">
-            <form action="" method="post">
+            <form action="#" method="post">
                 <fieldset class="form_01">    
                     <dl class="login_1">
                         <dt><i class="j_img"></i><label for="user" class="j_img"><span>아이디를 입력하세요</span></label></dt>
@@ -105,7 +105,7 @@
             </form>
       </div>
       <div id="tabs-2">
-        <form action="" method="post">
+        <form action="#" method="post">
             <fieldset class="form_02">    
                   <label for="name" class="name">
                       주문자명<span>주문자명을 입력하세요</span>
@@ -120,7 +120,7 @@
                   <label for="phone_num">
                       연락처<span>주문자 연락처를 입력하세요</span>
                   </label>
-                  <input type="phone_num" id="phone_num" name="phone_num" value="" />
+                  <input type="tel" id="phone_num" name="phone_num" value="" />
                   
                   <button type="submit" id="beloginCheck" name="beloginCheck" value="">
                       <span>로그인</span>
