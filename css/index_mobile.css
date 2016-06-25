@@ -69,19 +69,14 @@ html, body {
           transition: all 0.4s;
           width: 1.5rem;
           height: 1.5rem; }
-          #header #gnb #gnbBox > .menu_btn > div {
+          #header #gnb #gnbBox > .menu_btn > span {
             width: 100%;
             height: 15%;
             background-color: #333;
             border-radius: 2rem;
             margin-bottom: 15%;
             transition: all 0.7s; }
-            #header #gnb #gnbBox > .menu_btn > div > span {
-              width: 0;
-              height: 0;
-              display: block;
-              overflow: hidden; }
-            #header #gnb #gnbBox > .menu_btn > div:last-child {
+            #header #gnb #gnbBox > .menu_btn > span:last-child {
               margin-bottom: 0; }
           #header #gnb #gnbBox > .menu_btn:hover {
             cursor: pointer; }

@@ -370,6 +370,12 @@
     width: 84%;
     height: 80%;
     margin-left: 8%; }
+    #round_trip > h4 {
+      width: 5rem;
+      height: 1.5rem;
+      display: block;
+      font-size: 1.2rem;
+      margin-top: 200px; }
 
   #one_way {
     display: none; }
@@ -416,17 +422,12 @@
     width: 50%;
     height: 30%;
     float: left; }
-    #round_trip > .round_option_03 > h4 {
-      width: auto;
-      height: auto;
-      display: block;
-      font-size: 1.2rem; }
     #round_trip > .round_option_03 > li {
       width: 100%;
       height: calc(100% / 3);
       margin-top: 5%; }
       #round_trip > .round_option_03 > li:first-child {
-        margin-top: 15%; }
+        margin-top: -15%; }
 
   #round_trip > .round_option_03 > li > label {
     width: 35%;
@@ -439,6 +440,7 @@
     float: left; }
 
   #round_trip > .round_option_04 {
+    margin-top: 0;
     margin-left: 3%;
     width: 47%;
     float: left; }

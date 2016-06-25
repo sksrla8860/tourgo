@@ -1,0 +1,198 @@
+/* joinPage.css */
+*{font-family: "나눔바른고딕"}
+#wrap{width: 100%; height: auto;}
+#wrap>div{width: 960px; height: 100%; margin:0 auto;}
+
+/* header */
+#wrap>#header{width:100%; height: 200px;}
+
+h1 > a{width: 180px; height: 90px; display: block; background-image: url(../img/logo.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; }
+
+    #sitemap{height: 35px; background-color: #ddd;}
+    #sitemap>.sitemapBox{width:960px; height: 100%;margin:0 auto;}
+    #sitemap>.sitemapBox>ul{width: 454px; height: 100%; float:right;}
+    #sitemap>.sitemapBox>ul>li{height: 100%; float:left;}
+
+    #sitemap>.sitemapBox>ul>li>a{display: block; font-size: 0.8rem; text-align: center; line-height: 2.3rem; float: left; color: #fff; text-decoration: none; }
+    #sitemap>.sitemapBox>ul>li.sm_01{width: 78px; }
+    #sitemap>.sitemapBox>ul>li.sm_02{width: 88px; }
+    #sitemap>.sitemapBox>ul>li.sm_03{width: 98px; }
+    #sitemap>.sitemapBox>ul>li.sm_04{width: 104px; margin-left: 5px; }
+    #sitemap>.sitemapBox>ul>li.sm_05{width: 80px; }
+    #sitemap>.sitemapBox>ul>li.sm_01>a{width: 73px;}
+    #sitemap>.sitemapBox>ul>li.sm_02>a{width: 83px;}
+    #sitemap>.sitemapBox>ul>li.sm_03>a{width: 93px;}
+    #sitemap>.sitemapBox>ul>li.sm_04>a{width: 99px;}
+    #sitemap>.sitemapBox>ul>li.sm_05>a{width: 75px; margin-right:0px;}
+    #sitemap>.sitemapBox>ul>li>span{width: 2px; height: 50%; border-right: 1px solid #fff; float: right; margin-top: 10px; }
+
+    #search{width: 960px; height: 110px; margin: 0 auto;}
+    #search>h1, .search_box, .search_icon{float:left;}
+    h1{width: 180px;height: 90px; background-color: #fff; margin-top: 10px;}
+    #search>.search_box{width: 344px; height: 40px; margin-left:40px; margin-top:25px; }
+#search>.search_box > fieldset{width: 100%; height: 40px; border: 2px solid #ffc621; border-radius: 15px; }
+#search>.search_box > fieldset > input{width: 300px; height: 30px; float: left; margin-top: 5px; margin-left: 2px;}
+#search>.search_box > fieldset > button{width: 30px; height: 30px; float: left; margin-top: 5px; background-color: #fff; }
+
+    #search>.search_icon{width: 370px; height: 15px; margin-left: 18px; margin-top: 25px; }
+        .search_icon>ul{width: 100%; height: 100%;}
+        .search_icon>ul>li{width: 74px; height: 100%; background-color: #fff; float:left; margin-right: 3px; padding: 5px; border: 0 1px;}
+        .search_icon>ul>.sb_04{margin-right: 0;}
+        .search_icon>ul>li>a{width: 88px; height: 100%; float:left; }
+        .search_icon>ul>li>a+span{width: 2px; height: 8px; display: block; background-color: #000; float: right; }
+        .search_icon>ul>.sb_01>a{}
+        .search_icon>ul>.sb_02>a{}
+        .search_icon>ul>.sb_03>a{}
+        .search_icon>ul>.sb_04>a{}
+    #gnb{width: 100%; height: 55px;background-color: #58D20B;}
+    #gnb>#gnbBox{width: 960px; height: 100%; margin: 0 auto;}
+    #gnbBox>.menu, ul{float: left}
+    #gnb>#gnbBox>.menu{width: 65px; height: 100%; }
+    #gnb>#gnbBox>.menu > a> i{width: 65px; height: 100%; color: #fff; text-align: center; line-height: 55px; font-size: 1.875rem; }
+    #gnb>#gnbBox>.menu > a> i > span{width: 0; height: 0; display: block; overflow: hidden;}
+    #gnb>#gnbBox>ul{width: 895px;height: 100%; }
+    #gnb>#gnbBox>ul>li{width: 15%; height: 100%; float: left; margin-left: 15px; text-align: center; }
+    #gnb>#gnbBox>ul>li:nth-child(1){margin-left: 0;}
+    #gnb>#gnbBox>ul>li>a{width: 100%; height: 100%; font-size: 1.5rem; font-weight: bold; line-height: 55px; text-decoration: none; color: #fff; }
+
+
+
+
+
+
+/* article */
+#wrap>#article{height: 850px; padding-top: 70px;}
+    #wrap>#article>h2{width: 260px; height: 50px; font-size: 2.25rem; display: block; border-bottom: 2px solid #595959; margin-left: 100px; margin-bottom: 30px;}
+    #join{width: 620px; height: auto; margin: 0 auto;}
+    #join>form{width: 100%; height: 100%;}
+    #join>form>fieldset{width: 100%; height: auto; border-bottom: 1px solid #595959; padding-bottom: 15px; margin-bottom: 24px;}
+    
+        #join .form_01{width: 620px; height: 136px;}
+        #join .form_02{width: 620px; height: 256px;}
+        #join .form_03{width: 620px; height: 135px; margin-bottom: 60px; border-bottom: 0;}
+        #join .form_04{width: 100%; height: 40px; border-bottom: 0; margin: 0px; padding: 0;}
+            
+            #join>form>fieldset>dl{width: 100%; height: 30px; margin-top: 10px;}
+                #join>form>fieldset>dl>dt{width: 110px; height: 100%; padding-left: 7px; float: left;}
+                #join>form>fieldset>dl>dd{width: 500px; height: 100%; float: left;}
+    
+                .j_img{background-image: url(../img/join_icon.png); background-repeat: no-repeat;}
+                dt>i{width: 16px; height: 20px; margin:5px 7px; display: block; float: left;}
+                dt>label{width: 60px; height: 20px; margin: 5px; display: block; float: left;}
+                dt>label>span, dd>label>span ,dd>button>span{width: 0; height: 0; display: block; overflow: hidden;}
+                dd>input{width: 240px; height: 30px; border: 2px solid #999; float: left; box-sizing: border-box; border-radius: 5px; margin-right: 20px; text-indent: 0.06rem;}
+                dd>button{width: 100px; height: 30px; cursor: pointer; float: left;}
+    
+                .join_1 dt>i{background-position:-50px 0;}
+                .join_1 dt>label{background-position:-70px 0;}
+                .join_1 dd>button{background-position:-135px -160px;}
+                
+                .join_2 dt>i{background-position:-50px -20px;}
+                .join_2 dt>label{background-position:-70px -20px;}
+                .join_2 dd>i{width: 210px; height: 20px; background-position:-280px 0; float: left; margin-top: 7px;}
+    
+                .join_3 dt>i{background-position:-50px -40px;}
+                .join_3 dt>label{background-position:-70px -40px;}
+                .join_3 dd>i{width: 222px; height: 20px; background-position:-280px -20px; float: left; margin-top: 7px;}
+    
+                .join_4 dt>i{background-position:-50px -60px;}
+                .join_4 dt>label{background-position:-70px -60px;}
+                .join_4 dd>i{width: 110px; height: 16px; background-position:-280px -40px; float: left; margin-top: 7px;}
+    
+                .join_5 dt>i{background-position:-50px -80px;}
+                .join_5 dt>label{background-position:-70px -80px;}
+                .join_5 dd>button{background-position:-135px -160px;}
+                
+                .join_6 dt>i{background-position:-50px -100px;}
+                .join_6 dt>label{background-position:-70px -100px;}
+                .join_6 dt>label>.me_hidden{width: 0; height: 0; display: block; overflow: hidden;}
+                .join_6 dd>input{width: 100px; height: 30px;}
+                .join_6 dd>#phone_box_1{width: 100px; height: 30px; border: 2px solid #999; float: left; box-sizing: border-box; border-radius: 5px; margin-right: 20px; text-indent: 0.06rem;}
+                .join_6 dd>.line_bar{width: 10px; height: 14px; margin-right:10px; border-bottom: 1px solid #595959; float: left;}
+
+    
+                .join_7 dt>i{background-position:-50px -120px;}
+                .join_7 dt>label{background-position:-70px -120px;}
+                .join_7 dd>input{width: 130px; height: 30px;}
+                .join_7 dd>i{width: 20px; height: 20px; background-position:-280px -80px; margin-top: 7px; margin-left: -8px; margin-right: 3px; float: left;}
+                
+                
+                #join>form>fieldset>.sms_yes_no>dt{width: 30%; height: 100%; padding-left: 7px; float: left;}
+                #join>form>fieldset>.sms_yes_no>dd{width: 65%; height: 100%; float: left;}
+                .sms_yes_no dt>i{width: 20px; height: 20px; background-position:0 -100px; margin:5px 7px; display: block; float: left;}
+                .sms_yes_no dt>label{width: 90px; height: 20px; margin: 5px 10px; display: block; float: right; margin-right: 20px; text-align: center; font-size: 0.85rem;}
+                .sms_yes_no dd>#s_yes{width: 20px; height: 20px; float: left; margin-top: 5px; margin-left: 30px;}
+                .sms_yes_no dd>#s_no{width: 20px; height: 20px; float: left; margin-top: 5px; margin-left: 10px;}
+                .sms_yes_no dd>label{width: 30px; height: 30px; float: left; margin-top: 5px; margin-left: -10px;}
+                
+                #join>form>fieldset>.email_yes_no>dt{width: 30%; height: 100%; padding-left: 7px; float: left;}
+                #join>form>fieldset>.email_yes_no>dd{width: 65%; height: 100%; float: left;}
+                .email_yes_no dt>i{width: 20px; height: 20px; background-position:0 -100px; margin:5px 7px; display: block; float: left;}
+                .email_yes_no dt>label{width: 100px; height: 20px; margin: 5px 10px; display: block; float: right; text-align: center; font-size: 0.85rem;}
+                .email_yes_no dd>#e_yes{width: 20px; height: 20px; float: left; margin-top: 5px; margin-left: 30px;}
+                .email_yes_no dd>#e_no{width: 20px; height: 20px; float: left; margin-top: 5px; margin-left: 10px;}
+                .email_yes_no dd>label{width: 30px; height: 30px; float: left; margin-top: 5px; margin-left: -10px;}
+                
+                .join_8 dt>i{background-position:-50px -140px;}
+                .join_8 dt>label{background-position:-70px -140px;}
+                .join_8 dd>input{width: 100px; height: 30px;}
+                .join_8 dd>.year{width: 14px; height: 20px; background-position:-280px -100px; margin-top: 7px; margin-left: -15px; margin-right: 8px; float: left;}
+                .join_8 dd>.month{width: 14px; height: 20px; background-position:-300px -100px; margin-top: 7px; margin-left: -15px; margin-right: 8px; float: left;}
+                .join_8 dd>.day{width: 14px; height: 20px; background-position:-320px -100px; margin-top: 7px; margin-left: -15px; float: left;}
+    
+                .join_9 dt>i{width: 20px; height: 20px; background-position:-50px -160px;}
+                .join_9 dt>label{background-position:-70px -160px;}
+                .join_9 dd>input{width: 100px; margin-right: 10px;}
+                .join_9 dd>.line_bar{width: 10px; height: 14px; margin-right:10px; border-bottom: 1px solid #595959; float: left;}
+                .join_9 dd>button{background-position:-240px -160px; margin-left: 30px; float: left;}
+                
+                .join_10 dt>i{background-position:-50px -160px;}
+                .join_10 dt>label{background-position:-70px -180px;}
+                .join_10 dd>input{margin-bottom: 8px;}
+    
+        #join .form_04>button{width: 140px; height: 40px; cursor: pointer;}
+    
+                    button[type="submit"]{float: left; margin-left: 130px; background-color: #58D20B;}
+                    button[type="reset"]{float: right; margin-right: 130px;}
+    
+    
+    
+
+
+/* footer */
+#wrap>#footer{width: 100%; height: 100%; background-color: #222;}
+#footer_box{width: 960px; height: 400px; margin: 0 auto; }
+    #footer_box>#fnb{width: 100%; height: 40px; }
+    
+    #fnb > ul{width: 100%; height: 100%; margin-bottom: 25px; }
+    #fnb > ul >li{width: 12%; height: 60%; float: left; padding: 0 10px; border-right: 1px solid #fff; margin-top: 10px; }
+    #fnb > ul >li > a{width: 100%; height: 100%; color: #fff; text-align: center; float: left; line-height: 25px; text-decoration: none; }
+    
+
+        #footer_box>#addBox{width: 100%; height: 255px; }
+        #addBox>.info, .add, .con{float:left;}
+        #addBox p{color: #fff; font-size: 0.75rem; font-weight: normal; }
+        #addBox>.info{width: 430px; height: 255px; margin-left:50px; margin-right:50px; }
+        #addBox>.info>h3{width: 105px;height: auto; display: block; color: #fff; border-bottom: 2px solid #FFC621; padding-bottom: 10px; margin-bottom: 15px; text-align: center; }
+        #addBox>.info>p:nth-of-type(1){margin-bottom: 15px; }
+        #addBox>.info>p:nth-of-type(3){width: 90px; text-align: center; margin-bottom: 15px; border-radius: 5px; background-color: #FFC621; padding: 3px; margin-top: 5px;}
+        #addBox>.info>p:nth-of-type(3) > a{display: block; color: #333; text-decoration: none; font-weight: bold;}
+        #addBox>.info>p:nth-of-type(4){margin-bottom: 15px; }
+        #addBox>.add{width: 430px; height: 140px; }
+        #addBox>.add>h3{width: 70px; height: auto; display: block; color: #fff; border-bottom: 2px solid #FFC621; padding-bottom: 10px; margin-bottom: 15px; text-align: center; }
+        #addBox>.add>p{line-height: 30px; font-weight:700;}
+        #addBox>.con{width: 430px; height: auto; margin-top: 20px;}
+        #addBox>.con>h3{width: 70px; height: auto; color: #fff; border-bottom: 2px solid #FFC621; padding-bottom: 10px; margin-bottom: 15px; text-align: center; }
+        #addBox>.con>ul{width: 280px; height: 40px; margin-left: 70px;}
+        #addBox>.con>ul>li{width: 40px; height: 100%; float: left; margin-right: 40px;}
+        #addBox>.con>ul>li:last-child{margin-right: 0;}
+        #addBox>.con>ul>li>a{width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; display: block; background-size: cover; }
+        #addBox>.con>ul>li:nth-child(1)>a{background-image: url(../img/F_icon.svg.png);}
+        #addBox>.con>ul>li:nth-child(2)>a{background-image: url(../img/instagram-logo.png);}
+        #addBox>.con>ul>li:nth-child(3)>a{background-image: url(../img/com_kakao_story.png);}
+        #addBox>.con>ul>li:nth-child(4)>a{background-image: url(../img/com_kakao_story.png);}
+    #footer_box> #foot_info{width: 960px; height: 65px; margin-top: 40px;}
+    #footer_box> #foot_info > p{width: 100%; height: calc(100% / 3); color: #fff; font-weight: lighter; text-align: center; font-size: 0.75rem; line-height: calc(65px / 3);}
+    #footer_box> #foot_info > p:nth-child(1){font-weight: lighter; }
+    #footer_box> #foot_info > p:nth-child(2){font-weight: bold;}
+    #footer_box> #foot_info > p:nth-child(3){font-weight: lighter; font-size: 0.625rem; }

@@ -203,26 +203,22 @@
     height: 100%;
     margin: 0 auto; }
     #gnb > #gnbBox > .menu_btn {
-      width: 51px;
+      width: 48px;
       height: calc(100% - 14px);
       background-color: transparent;
       float: left;
       padding: 7px;
       margin-top: 7px;
-      margin-left: 7px; }
-      #gnb > #gnbBox > .menu_btn > div {
-        width: 80%;
+      margin-left: 3px; }
+      #gnb > #gnbBox > .menu_btn > span {
+        width: 90%;
         height: 15%;
         background-color: #fff;
         border-radius: 2rem;
         margin-bottom: 15%;
-        transition: all 0.7s; }
-        #gnb > #gnbBox > .menu_btn > div > span {
-          width: 0;
-          height: 0;
-          display: block;
-          overflow: hidden; }
-        #gnb > #gnbBox > .menu_btn > div:last-child {
+        transition: all 0.7s;
+        display: block; }
+        #gnb > #gnbBox > .menu_btn > span:last-child {
           margin-bottom: 0; }
 
   #gnb > #gnbBox > ul {
@@ -230,7 +226,7 @@
     height: 100%; }
 
   #gnb > #gnbBox > ul > li {
-    width: 15%;
+    width: 14%;
     height: 100%;
     float: left;
     margin-left: 15px;
@@ -456,6 +452,10 @@
 
   .join_7 dt > label {
     background-position: -70px -120px; }
+
+  .join_7 dt > input {
+    width: 0;
+    height: 0; }
 
   .join_7 dd > input {
     width: 130px;
